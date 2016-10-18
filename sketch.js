@@ -13,6 +13,7 @@ function charGen(eyes,mouth,body,arms){
 centerMass = height/2;
 fill(random(255), random(255), random(255));
 ellipse(width/2, centerMass, body, body *random(3));
+ellipse(width/2, centerMass +2, body, body*random(2));
 
 fill(random(255), random(255), random(255));
 rectMode(CENTER);
